@@ -1,5 +1,6 @@
 /* css styles */
 :root {
+  --gsc-comment-padding: 0.25rem;
 }
 
 .gsc-header {
