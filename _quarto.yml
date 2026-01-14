@@ -23,6 +23,6 @@ format:
         category-id: DIC_kwDOMkzHGs4ChvwI
         reactions-enabled: false
         mapping: url
-        input-position: "top"
-        theme: noborder_light
+        input-position: "bottom"
+        theme: noborder_gray
         loading: "lazy"
