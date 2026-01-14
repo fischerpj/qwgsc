@@ -1,11 +1,13 @@
 /* css styles */
 :root {
+  --gsc-editor-padding: 0.25rem;
   --gsc-comment-padding: 0.25rem;
-  --gsc-avatar-size: 24px;
+  --gsc-avatar-size: 20px;
   --gsc-gap: 0.25rem;
   --gsc-comment-border-radius:0;
   --gsc-comment-border: none;
   --gsc-font-size: 0.9rem;
+  --gsc-editor-textarea-height: 80px
 }
 
 .gsc-header {
