@@ -23,3 +23,4 @@ format:
         category-id: DIC_kwDOMkzHGs4ChvwI
         mapping: url
         theme: cobalt
+        data-theme: "url:https://raw.githubusercontent.com/fischerpj/qwgsc/main/styles.css"
