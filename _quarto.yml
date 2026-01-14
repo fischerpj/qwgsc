@@ -23,4 +23,4 @@ format:
         category-id: DIC_kwDOMkzHGs4ChvwI
         reactions-enabled: false
         mapping: url
-        theme: noborder_light
+        theme: noborder_gray
