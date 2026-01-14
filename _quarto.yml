@@ -13,7 +13,6 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
     comments:
       giscus: 
@@ -22,4 +21,4 @@ format:
         category: Announcements
         category-id: DIC_kwDOMkzHGs4ChvwI
         mapping: url
-        data-theme: "https://fischerpj.github.io/qwgsc/style.css"
+        data-theme: "https://fischerpj.github.io/qwgsc/cobalt.css"
