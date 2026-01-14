@@ -14,6 +14,7 @@ format:
   html:
     theme: cosmo
     toc: true
+    css: assets/cobalt.css
     comments:
       giscus: 
         repo: r-leyshon/quarto-giscus
@@ -21,4 +22,4 @@ format:
         category: Announcements
         category-id: DIC_kwDOMkzHGs4ChvwI
         mapping: url
-        data-theme: "https://fischerpj.github.io/qwgsc/cobalt.css"
+        theme: "url:https://fischerpj.github.io/qwgsc/assets/cobalt.css"
