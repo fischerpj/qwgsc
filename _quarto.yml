@@ -24,5 +24,5 @@ format:
         reactions-enabled: false
         mapping: url
         input-position: "bottom"
-        theme: noborder_light
+        theme: noborder_gray
         loading: "lazy"
