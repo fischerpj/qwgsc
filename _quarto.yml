@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Test Giscus"
+  title: "Quarto + Giscus"
   navbar:
     left:
       - href: index.qmd
@@ -12,7 +12,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: lumen
     toc: true
     css: assets/cobalt.css
     comments:
