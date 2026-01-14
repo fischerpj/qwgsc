@@ -1,1 +1,9 @@
 /* css styles */
+/* Example: hide header and reactions */
+.gsc-header {
+  display: none !important;
+}
+
+.gsc-reactions {
+  display: none !important;
+}
