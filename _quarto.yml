@@ -21,5 +21,6 @@ format:
         repo-id: R_kgDOMkzHGg
         category: Announcements
         category-id: DIC_kwDOMkzHGs4ChvwI
+        reactions-enabled: false
         mapping: url
         theme: "url:https://fischerpj.github.io/qwgsc/assets/cobalt.css"
