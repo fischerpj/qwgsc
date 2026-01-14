@@ -1,10 +1,12 @@
 /* css styles */
-/* Example: hide header and reactions */
-.gsc-header {
-  display: none !important;
+:root {
 }
 
+.gsc-header {
+  display: none !important;
+  }
+  
 .gsc-reactions {
   display: none !important;
   background-color: blue;
-}
+}  
