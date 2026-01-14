@@ -8,8 +8,7 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 <details>
 <summary>Show comments</summary>
-
 ::: {#comments}
 :::
-
+<p>end of details</details>
 </details>
