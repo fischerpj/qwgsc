@@ -7,10 +7,31 @@
     "text": "About this site"
   },
   {
+    "objectID": "posts/giscus_static.html",
+    "href": "posts/giscus_static.html",
+    "title": "giscus manual insertion",
+    "section": "",
+    "text": "resume\n\ninsert nothing (nor _quarto.yaml, nor front matter), check nothing =&gt; OK\nvery manual, static insertion of script"
+  },
+  {
+    "objectID": "posts/giscus_yaml.html",
+    "href": "posts/giscus_yaml.html",
+    "title": "giscus yaml auto",
+    "section": "",
+    "text": "Rely on Quarto automatism to create giscus interface on this page using its front matter parameters.\n\nbody &gt; quarto-content - main - script loadGiscus() append quarto-content - script src=…/client.js - div.giscus"
+  },
+  {
+    "objectID": "posts/giscus_manual.html",
+    "href": "posts/giscus_manual.html",
+    "title": "giscus manual insertion",
+    "section": "",
+    "text": "resume\n\ninsert nothing (nor _quarto.yaml, nor front matter), check nothing =&gt; OK\nvery manual, static insertion of script"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "test",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\ntheme: “url:https://github.com/fischerpj/qwgsc/assets/cobalt.css?v=2”"
+    "text": "This is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nresume\n\nintercept iframe widget to strip its superfluous ui elements eg .gsc-header\nremove quarto.yaml wide giscus and insert giscus manually per page with include header after\nproject is quarto-giscus a minimal demonstrator and quarto render to build it\n\n\n\nlegacy\nI think this script is inserted by Quarto we clone it as assets/giscus.html for insert after body\n\nformat: html: theme: lumen toc: true css: assets/cobalt.css comments: giscus: repo: r-leyshon/quarto-giscus repo-id: R_kgDOMkzHGg category: Announcements category-id: DIC_kwDOMkzHGs4ChvwI reactions-enabled: false mapping: url input-position: “bottom” theme: noborder_gray loading: “lazy”\ntheme: “url:https://github.com/fischerpj/qwgsc/assets/cobalt.css?v=2”\nhttps://fischerpj.github.io/qwgsc/\nhttps://giscus.app/en/widget?origin where route is en/widget we test manually src=“https://giscus_proxy.pjafischer.workers.dev/en/widget?origin and it works echo\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\nJan 23, 2026\n\n\ngiscus yaml auto\n\n\n\n\n\n\nJan 22, 2026\n\n\ngiscus manual insertion\n\n\n\n\n\n\nJan 22, 2026\n\n\ngiscus manual insertion\n\n\n\n\n\n\nNo matching items"
   }
 ]

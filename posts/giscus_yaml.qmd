@@ -1,0 +1,28 @@
+---
+title: "giscus yaml auto"
+date: "2026-01-23"
+format:
+  html:
+    theme: lumen
+    toc: true
+    css: assets/cobalt.css
+    comments:
+      giscus: 
+        repo: r-leyshon/quarto-giscus
+        repo-id: R_kgDOMkzHGg
+        category: Announcements
+        category-id: DIC_kwDOMkzHGs4ChvwI
+        reactions-enabled: false
+        mapping: url
+        input-position: "bottom"
+        theme: noborder_gray
+        loading: "lazy"
+---
+
+> Rely on Quarto automatism to create giscus interface on this page using its front matter parameters.
+
+body > quarto-content
+  - main
+  - script loadGiscus() append quarto-content
+  - script src=.../client.js
+  - div.giscus

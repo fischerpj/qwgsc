@@ -1,0 +1,10 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/giscus_yaml.html",
+      "/posts/giscus_manual.html",
+      "/posts/giscus_static.html"
+    ]
+  }
+]

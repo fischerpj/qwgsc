@@ -14,15 +14,4 @@ format:
   html:
     theme: lumen
     toc: true
-    css: assets/cobalt.css
-    comments:
-      giscus: 
-        repo: r-leyshon/quarto-giscus
-        repo-id: R_kgDOMkzHGg
-        category: Announcements
-        category-id: DIC_kwDOMkzHGs4ChvwI
-        reactions-enabled: false
-        mapping: url
-        input-position: "bottom"
-        theme: noborder_gray
-        loading: "lazy"
+    css: public/cobalt.css

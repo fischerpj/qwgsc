@@ -1,0 +1,14 @@
+---
+title: "giscus manual insertion"
+date: "2026-01-22"
+format:
+  html:
+    includes:
+      after-body: "giscus.html"
+---
+
+### resume
+
+-   insert nothing (nor \_quarto.yaml, nor front matter), check nothing =\> OK
+
+-   very manual, static insertion of script
