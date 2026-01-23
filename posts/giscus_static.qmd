@@ -1,5 +1,5 @@
 ---
-title: "giscus manual insertion"
+title: "giscus static insertion"
 date: "2026-01-22"
 format: html
 ---
