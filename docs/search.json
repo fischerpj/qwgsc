@@ -21,10 +21,24 @@
     "text": "Rely on Quarto automatism to create giscus interface on this page using its front matter parameters.\n\nbody &gt; quarto-content - main - script loadGiscus() append quarto-content - script src=…/client.js - div.giscus"
   },
   {
+    "objectID": "posts/include/giscus_include.html",
+    "href": "posts/include/giscus_include.html",
+    "title": "giscus includes",
+    "section": "",
+    "text": "SOLUTION: put .qmd and giscus.html in a folfer include"
+  },
+  {
+    "objectID": "posts/include_proxy/giscus_proxy.html",
+    "href": "posts/include_proxy/giscus_proxy.html",
+    "title": "giscus_proxy",
+    "section": "",
+    "text": "we test giscus_proxy/client.js error 404 il faut plutôt /en/widget\nSOLUTION: put .qmd and giscus.html in a folfer include"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "test",
     "section": "",
-    "text": "This is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nresume\n\nintercept iframe widget to strip its superfluous ui elements eg .gsc-header\nremove quarto.yaml wide giscus and insert giscus manually per page with include header after\nproject is quarto-giscus a minimal demonstrator and quarto render to build it\n\n\n\nlegacy\nI think this script is inserted by Quarto we clone it as assets/giscus.html for insert after body\n\nformat: html: theme: lumen toc: true css: assets/cobalt.css comments: giscus: repo: r-leyshon/quarto-giscus repo-id: R_kgDOMkzHGg category: Announcements category-id: DIC_kwDOMkzHGs4ChvwI reactions-enabled: false mapping: url input-position: “bottom” theme: noborder_gray loading: “lazy”\ntheme: “url:https://github.com/fischerpj/qwgsc/assets/cobalt.css?v=2”\nhttps://fischerpj.github.io/qwgsc/\nhttps://giscus.app/en/widget?origin where route is en/widget we test manually src=“https://giscus_proxy.pjafischer.workers.dev/en/widget?origin and it works echo\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\nJan 23, 2026\n\n\ngiscus yaml auto\n\n\n\n\n\n\nJan 22, 2026\n\n\ngiscus includes\n\n\n\n\n\n\nJan 22, 2026\n\n\ngiscus static insertion\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nresume\n\nintercept iframe widget to strip its superfluous ui elements eg .gsc-header\nremove quarto.yaml wide giscus and insert giscus manually per page with include header after\nproject is quarto-giscus a minimal demonstrator and quarto render to build it\n\n\n\nlegacy\nI think this script is inserted by Quarto we clone it as assets/giscus.html for insert after body\n\nformat: html: theme: lumen toc: true css: assets/cobalt.css comments: giscus: repo: r-leyshon/quarto-giscus repo-id: R_kgDOMkzHGg category: Announcements category-id: DIC_kwDOMkzHGs4ChvwI reactions-enabled: false mapping: url input-position: “bottom” theme: noborder_gray loading: “lazy”\ntheme: “url:https://github.com/fischerpj/qwgsc/assets/cobalt.css?v=2”\nhttps://fischerpj.github.io/qwgsc/\nhttps://giscus.app/en/widget?origin where route is en/widget we test manually src=“https://giscus_proxy.pjafischer.workers.dev/en/widget?origin and it works echo\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\nJan 22, 2026\n\n\ngiscus includes\n\n\n\n\n\n\nJan 23, 2026\n\n\ngiscus yaml auto\n\n\n\n\n\n\nJan 22, 2026\n\n\ngiscus_proxy\n\n\n\n\n\n\nJan 22, 2026\n\n\ngiscus static insertion\n\n\n\n\n\n\nNo matching items"
   }
 ]

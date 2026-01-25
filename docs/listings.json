@@ -2,8 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/include/giscus_include.html",
       "/posts/giscus_yaml.html",
-      "/posts/giscus_manual.html",
+      "/posts/include_proxy/giscus_proxy.html",
       "/posts/giscus_static.html"
     ]
   }

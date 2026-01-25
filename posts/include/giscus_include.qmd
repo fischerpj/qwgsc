@@ -1,0 +1,9 @@
+---
+title: "giscus includes"
+date: "2026-01-22"
+format:
+  html:
+    include-after-body: ../../assets/giscus.html
+---
+
+SOLUTION: put .qmd and giscus.html in a folfer include

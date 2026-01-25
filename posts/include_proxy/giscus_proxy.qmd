@@ -1,0 +1,12 @@
+---
+title: "giscus_proxy"
+date: "2026-01-22"
+format:
+  html:
+    include-after-body: ../../assets/giscus_proxy.html
+---
+
+we test giscus_proxy/client.js
+error 404 il faut plutôt /en/widget 
+
+SOLUTION: put .qmd and giscus.html in a folfer include
